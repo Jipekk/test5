@@ -1,0 +1,35 @@
+body {
+    background-image:linear-gradient(to right,#A3CEF1,#B7B5E4) ;
+}
+form {
+    background-color: rgba(255, 255, 255, 0.436);
+    margin: 0px 100px 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.below {
+    margin: 10px 0px 0px 70px;
+}
+button {
+    border: none;
+    width: 200px;
+    margin: 20px;
+    height: 30px;
+    background-color: #2A1E5C;
+    color: white;
+    border-radius: 15px;
+    margin-left: 0px;
+    transition: 0.5s;
+   
+}
+button:hover {
+    background-color: #A3CEF1;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
